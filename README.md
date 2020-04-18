@@ -12,7 +12,7 @@ created a notebook in azure databricks using the following command.
 		container = "movie"
 		
 		# the second piece of information needed is the blob SAS token. This will be a Shared Access Signature token found in the azure portal
-		blobKey = "?sv=2019-02-02&ss=bfqt&srt=sco&sp=rwdlacup&se=2020-05-03T02:51:44Z&st=2020-04-18T18:51:44Z&spr=https&sig=7CA1fvw8tik0uP5MYE3jmZIaUbIlCo8wovE0VGKgXUI%3D"
+		blobKey = "SASKeyfromAzureforthestorageaccount"
 		
 		blobEndpoint = "wasbs://{1}@{0}.blob.core.windows.net/".format(storage_account, container)
 		
